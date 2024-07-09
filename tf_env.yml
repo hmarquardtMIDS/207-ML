@@ -1,0 +1,17 @@
+name: tf_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - tqdm
+  - jupyter
+  - pip
+  - pip:
+      - tensorflow-macos
+      - tensorflow-metal
